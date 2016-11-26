@@ -1,0 +1,51 @@
+[
+{
+"name": "Jeremy",
+"team": "Jeremy",
+"giftcardSales": [
+		{"date": "12/1/2016", "giftcardRevenue": 420.00},
+		{"date": "12/3/2016", "giftcardRevenue": 160.00}
+	]
+},
+{
+"name": "Ashley",
+"team": "Jeremy",
+"giftcardSales": [
+		{"date": "12/1/2016", "giftcardRevenue": 120.00},
+		{"date": "12/3/2016", "giftcardRevenue": 160.00}
+	]
+},
+{
+"name": "Clayton",
+"team": "Clayton",
+"giftcardSales": [
+		{"date": "12/1/2016", "giftcardRevenue": 120.00},
+		{"date": "12/3/2016", "giftcardRevenue": 10.00}
+	]
+},
+{
+"name": "Elon",
+"team": "Clayton",
+"giftcardSales": [
+		{"date": "12/1/2016", "giftcardRevenue": 10.00},
+		{"date": "12/3/2016", "giftcardRevenue": 200.00}
+	]
+},
+{
+"name": "Lizzie",
+"team": "Lizzie",
+"giftcardSales": [
+		{"date": "12/1/2016", "giftcardRevenue": 321.00},
+		{"date": "12/4/2016", "giftcardRevenue": 56.00}
+	]
+},
+{
+"name": "Evan",
+"team": "Lizzie",
+"giftcardSales": [
+		{"date": "12/1/2016", "giftcardRevenue": 25.00},
+		{"date": "12/3/2016", "giftcardRevenue": 34.00}
+	]
+}
+
+]
