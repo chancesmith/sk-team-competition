@@ -123,14 +123,14 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} />
+          <img src={logo} alt="sk logo"/>
           <div className="details">
             <p><strong>December Challenge:</strong></p>
             <p>Team that sells $6,000 in gift cards...</p>
           </div>
           <div className="details">
             <p><strong>Incentive:</strong></p>
-            <p>Gets 10¢ raise, any blue or red SK jacket/pull-over of choice.</p>
+            <p>Gets 10¢ raise, any blue or red <a href="http://smoothiekingstore.com/categories.asp?cat=Retail+Apparel">SK jacket/pull-over</a> of choice.</p>
           </div>
         </div>
         <div className="App-intro">
