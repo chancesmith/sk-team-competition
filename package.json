@@ -1,7 +1,6 @@
 {
   "name": "sk-team-competition",
   "version": "0.1.0",
-  "private": true,
   "devDependencies": {
     "react-scripts": "0.7.0"
   },
