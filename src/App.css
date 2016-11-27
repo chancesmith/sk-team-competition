@@ -20,18 +20,26 @@
   font-size: large;
 }
 
+h1 {margin-bottom: 3px;}
+
 span.green {color: green}
 span.red {color: #d0363d}
 
 p.first {
-  border-bottom: 1px solid #d0363d;
+  border-bottom: 1px dashed #d0363d;
   width: 250px;
   text-align: center;
   margin: 0 auto;
   padding: 17px 0;
 }
 p.not-first {
-  opacity: 0.46;
+  font-size: 0.8em;
+}
+p span.total {
+	padding: 0 0 0 8px;
+}
+p.not-first span.total {
+	opacity: .45;
 }
 span.team-tag {
   padding: 5px 8px;
@@ -39,13 +47,17 @@ span.team-tag {
   color: #FFF;
 }
 span.team-tag.red-tag {
-	background: rgba(255, 0, 10, 0.48);
+	background: rgba(255, 106, 0, 0.48);
 }
 span.team-tag.blue-tag {
 	background: rgba(16, 0, 255, 0.48);
 }
 span.team-tag.green-tag {
-	background: rgba(0, 255, 20, 0.48);
+	background: rgba(0, 255, 55, 0.52);
+}
+
+.team-list {
+    padding: 7px 0;
 }
 .team-list .teamMember {
 	

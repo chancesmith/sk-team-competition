@@ -29,7 +29,8 @@ class App extends Component {
     let topSalesTeams = sortedTeamsList.map(function(team, i) {
        return(
           <p key={i} className={(i === 0 ? ' first' : ' not-first')}>
-            <span className={"team-tag " + (team.color) + "-tag"}> Team {team.name}</span> at ${team.total}
+            <span className={"team-tag " + (team.color) + "-tag"}> Team {team.name}</span> 
+            <span className="total">at ${team.total}</span>
           </p>
        );
     });
@@ -71,7 +72,7 @@ class App extends Component {
     let topSalesMembers = sortedMembersList.slice(0, limit).map(function(member, i) {
        return(
           <p key={i} className="teamMember">
-            <span className="red">{member.name} w/ ${member.totalSales}</span> 
+            <span className="red">{member.name} @ ${member.totalSales}</span> 
             <span className={"team-tag " + (member.color) + "-tag"}>Team {member.team}</span>
           </p>
        );
@@ -92,7 +93,7 @@ class App extends Component {
     let topSalesMembers = sortedMembersList.slice(0, limit).map(function(member, i) {
        return(
           <p key={i} className="teamMember">
-            <span className="green">{member.name} w/ ${member.totalSales}</span> 
+            <span className="green">{member.name} @ ${member.totalSales}</span> 
             <span className={"team-tag " + (member.color) + "-tag"}>Team {member.team}</span>
           </p>
        );
@@ -136,11 +137,11 @@ class App extends Component {
           <h1>Winning Team</h1>
           {this.showHighestTeam()}
           <div className="team-list">
-            <h1>Top 3</h1>
+            <h1>Hightest Sales</h1>
             {this.showHighestSalesTeamMembers(3)}
           </div>
           <div className="team-list">
-            <h1>Bottom 3</h1>
+            <h1>Lowest Sales</h1>
             {this.showLowestSalesTeamMembers(3)}
           </div>
         </div>
