@@ -10,27 +10,31 @@ class App extends Component {
     this.state = {
         teamMembers: teamData,
         teams: [
-          {name:'Jeremy', total: 0},
-          {name:'Clayton', total: 0},
-          {name:'Lizzie', total: 0}
+          {name:'Jeremy', total: 0, color: "red"},
+          {name:'Clayton', total: 0, color: "blue"},
+          {name:'Lizzie', total: 0, color: "green"}
         ]
     };
   }
 
   showHighestTeam(){
-    // There's no real number bigger than plus Infinity
-    let highest = Number.NEGATIVE_INFINITY,
-        teams = this.state.teams,
-        tmp,
-        winningTeam;
-    for (let i=teams.length-1; i>=0; i--) {
-      tmp = teams[i].total;
-      if (tmp > highest) {
-        winningTeam = teams[i].name;
-        highest = tmp;
-      }
-    }
-    return "Team " + winningTeam + " at $" + highest.toFixed(2);
+    let oldTeamsList = this.state.teams;
+
+    // order by descending
+    let sortedTeamsList = _.sortBy(oldTeamsList, 'total', function(n) {
+      return Math.sin(n);
+    }).reverse();
+
+    // create your components
+    let topSalesTeams = sortedTeamsList.map(function(team, i) {
+       return(
+          <p key={i} className={(i === 0 ? ' first' : ' not-first')}>
+            <span className={"team-tag " + (team.color) + "-tag"}> Team {team.name}</span> at ${team.total}
+          </p>
+       );
+    });
+
+    return topSalesTeams;
   }
 
   storeTeamSalesTotals(){
@@ -44,6 +48,7 @@ class App extends Component {
         let salesList = membersList[b].giftcardSales
         // if team member is in same team
         if(teamsList[a].name === membersList[b].team) {
+          membersList[b].color = teamsList[a].color;
           // loop through sales of this team member
           for (let c = salesList.length - 1; c >= 0; c--) {
             // add sales up for this team
@@ -65,7 +70,10 @@ class App extends Component {
     // create your components
     let topSalesMembers = sortedMembersList.slice(0, limit).map(function(member, i) {
        return(
-          <p key={i} className="red">{member.name} w/ ${member.totalSales} (Team {member.team})</p>
+          <p key={i} className="teamMember">
+            <span className="red">{member.name} w/ ${member.totalSales}</span> 
+            <span className={"team-tag " + (member.color) + "-tag"}>Team {member.team}</span>
+          </p>
        );
     });
 
@@ -83,7 +91,10 @@ class App extends Component {
     // create your components
     let topSalesMembers = sortedMembersList.slice(0, limit).map(function(member, i) {
        return(
-          <p key={i} className="green">{member.name} w/ ${member.totalSales} (Team {member.team})</p>
+          <p key={i} className="teamMember">
+            <span className="green">{member.name} w/ ${member.totalSales}</span> 
+            <span className={"team-tag " + (member.color) + "-tag"}>Team {member.team}</span>
+          </p>
        );
     });
 
@@ -105,6 +116,7 @@ class App extends Component {
   }
 
   render() {
+    //setup state data
     this.storeTeamSalesTotals();
     this.totalTeamMemberSalesTotals();
     return (
@@ -122,11 +134,15 @@ class App extends Component {
         </div>
         <div className="App-intro">
           <h1>Winning Team</h1>
-          <p>{this.showHighestTeam()}</p>
-          <h1>Top 3</h1>
-          {this.showHighestSalesTeamMembers(3)}
-          <h1>Bottom 3</h1>
-          {this.showLowestSalesTeamMembers(3)}
+          {this.showHighestTeam()}
+          <div className="team-list">
+            <h1>Top 3</h1>
+            {this.showHighestSalesTeamMembers(3)}
+          </div>
+          <div className="team-list">
+            <h1>Bottom 3</h1>
+            {this.showLowestSalesTeamMembers(3)}
+          </div>
         </div>
       </div>
     );

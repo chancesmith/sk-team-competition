@@ -19,5 +19,39 @@
   font-size: large;
 }
 
-.green {color: green}
-.red {color: #d0363d}
+span.green {color: green}
+span.red {color: #d0363d}
+
+p.first {
+  border-bottom: 1px solid #d0363d;
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 17px 0;
+}
+p.not-first {
+  opacity: 0.46;
+}
+span.team-tag {
+  padding: 5px 8px;
+  border-radius: 3px;
+  color: #FFF;
+}
+span.team-tag.red-tag {
+	background: rgba(255, 0, 10, 0.48);
+}
+span.team-tag.blue-tag {
+	background: rgba(16, 0, 255, 0.48);
+}
+span.team-tag.green-tag {
+	background: rgba(0, 255, 20, 0.48);
+}
+.team-list .teamMember {
+	
+}
+.team-list span.team-tag {
+	font-size: 10px;
+  padding: 4px;
+  display: inline-block;
+	margin: 0 0 0 9px;
+}
