@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import logo from './sk-logo.png';
 import teamData from './team.json';
 let _ = require('lodash');
 
@@ -109,7 +110,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>SK Jackson Teams</h2>
+          <img src={logo} />
           <div className="details">
             <p><strong>December Challenge:</strong></p>
             <p>Team that sells $6,000 in gift cards...</p>
