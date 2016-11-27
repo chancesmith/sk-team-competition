@@ -4,11 +4,20 @@
 
 .App-header {
   background-color: #d0363d;
-  height: 65px;
   padding: 20px;
   color: white;
+  font-size: 18px;
+}
+.App-header .details {
+    padding: 12px 0;
+}
+.App-header p {
+    margin: 0 0 6px 0;
 }
 
 .App-intro {
   font-size: large;
 }
+
+.green {color: green}
+.red {color: #d0363d}
