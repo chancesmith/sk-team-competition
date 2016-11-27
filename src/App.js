@@ -62,9 +62,9 @@ class App extends Component {
     });
 
     // create your components
-    let topSalesMembers = sortedMembersList.slice(0, limit).map(function(member) {
+    let topSalesMembers = sortedMembersList.slice(0, limit).map(function(member, i) {
        return(
-          <p className="red">{member.name} w/ ${member.totalSales} (Team {member.team})</p>
+          <p key={i} className="red">{member.name} w/ ${member.totalSales} (Team {member.team})</p>
        );
     });
 
@@ -80,9 +80,9 @@ class App extends Component {
     }).reverse();
 
     // create your components
-    let topSalesMembers = sortedMembersList.slice(0, limit).map(function(member) {
+    let topSalesMembers = sortedMembersList.slice(0, limit).map(function(member, i) {
        return(
-          <p className="green">{member.name} w/ ${member.totalSales} (Team {member.team})</p>
+          <p key={i} className="green">{member.name} w/ ${member.totalSales} (Team {member.team})</p>
        );
     });
 
@@ -123,9 +123,9 @@ class App extends Component {
           <h1>Winning Team</h1>
           <p>{this.showHighestTeam()}</p>
           <h1>Top 3</h1>
-          <p>{this.showHighestSalesTeamMembers(3)}</p>
+          {this.showHighestSalesTeamMembers(3)}
           <h1>Bottom 3</h1>
-          <p>{this.showLowestSalesTeamMembers(3)}</p>
+          {this.showLowestSalesTeamMembers(3)}
         </div>
       </div>
     );
