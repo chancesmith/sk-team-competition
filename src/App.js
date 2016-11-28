@@ -130,7 +130,8 @@ class App extends Component {
           </div>
           <div className="details">
             <p><strong>Incentive:</strong></p>
-            <p>Gets 10¢ raise, any blue or red <a href="http://smoothiekingstore.com/categories.asp?cat=Retail+Apparel">SK jacket/pull-over</a> of choice.</p>
+            <p>Winning team gets $150/each</p>
+            <p>Highest team gets any blue or red <a href="http://smoothiekingstore.com/categories.asp?cat=Retail+Apparel">SK jacket/pull-over</a> of choice.</p>
           </div>
         </div>
         <div className="App-intro">
