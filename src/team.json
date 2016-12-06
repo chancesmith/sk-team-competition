@@ -33,14 +33,16 @@
 "name": "Clayton",
 "team": "Clayton",
 "giftcardSales": [
-		{"date": "12/1/2016", "giftcardRevenue": 0}
+		{"date": "12/1/2016", "giftcardRevenue": 0},
+		{"date": "12/5/2016", "giftcardRevenue": 25}
 	]
 },
 {
 "name": "Ashley",
 "team": "Clayton",
 "giftcardSales": [
-		{"date": "12/1/2016", "giftcardRevenue": 0}
+		{"date": "12/1/2016", "giftcardRevenue": 0},
+		{"date": "12/5/2016", "giftcardRevenue": 25}
 	]
 },
 {
@@ -77,7 +79,7 @@
 "team": "Lizzie",
 "giftcardSales": [
 		{"date": "12/1/2016", "giftcardRevenue": 0},
-		{"date": "12/3/2016", "giftcardRevenue": 40}
+		{"date": "12/4/2016", "giftcardRevenue": 40}
 	]
 },
 {
