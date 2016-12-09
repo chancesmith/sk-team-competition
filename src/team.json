@@ -10,7 +10,8 @@
 "name": "Tucker",
 "team": "Jeremy",
 "giftcardSales": [
-		{"date": "12/1/2016", "giftcardRevenue": 25.00}
+		{"date": "12/1/2016", "giftcardRevenue": 25.00},
+		{"date": "12/8/2016", "giftcardRevenue": 50.00}
 	]
 },
 {
@@ -34,7 +35,8 @@
 "team": "Clayton",
 "giftcardSales": [
 		{"date": "12/1/2016", "giftcardRevenue": 0},
-		{"date": "12/5/2016", "giftcardRevenue": 25}
+		{"date": "12/5/2016", "giftcardRevenue": 25},
+		{"date": "12/8/2016", "giftcardRevenue": 25}
 	]
 },
 {
@@ -44,7 +46,8 @@
 		{"date": "12/1/2016", "giftcardRevenue": 0},
 		{"date": "12/5/2016", "giftcardRevenue": 25},
 		{"date": "12/6/2016", "giftcardRevenue": 10},
-		{"date": "12/7/2016", "giftcardRevenue": 25}
+		{"date": "12/7/2016", "giftcardRevenue": 25},
+		{"date": "12/8/2016", "giftcardRevenue": 25}
 	]
 },
 {
@@ -52,7 +55,8 @@
 "team": "Clayton",
 "giftcardSales": [
 		{"date": "12/1/2016", "giftcardRevenue": 0},
-		{"date": "12/3/2016", "giftcardRevenue": 10}
+		{"date": "12/3/2016", "giftcardRevenue": 10},
+		{"date": "12/8/2016", "giftcardRevenue": 20}
 	]
 },
 {
