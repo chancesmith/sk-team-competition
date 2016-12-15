@@ -3,7 +3,9 @@
 "name": "Jeremy",
 "team": "Jeremy",
 "giftcardSales": [
-		{"date": "12/1/2016", "giftcardRevenue": 0}
+		{"date": "12/1/2016", "giftcardRevenue": 0},
+		{"date": "12/12/2016", "giftcardRevenue": 20},
+		{"date": "12/14/2016", "giftcardRevenue": 40}
 	]
 },
 {
@@ -11,7 +13,8 @@
 "team": "Jeremy",
 "giftcardSales": [
 		{"date": "12/1/2016", "giftcardRevenue": 25.00},
-		{"date": "12/8/2016", "giftcardRevenue": 50.00}
+		{"date": "12/8/2016", "giftcardRevenue": 50.00},
+		{"date": "12/13/2016", "giftcardRevenue": 25.00}
 	]
 },
 {
@@ -28,7 +31,8 @@
 "team": "Jeremy",
 "giftcardSales": [
 		{"date": "12/1/2016", "giftcardRevenue": 0},
-		{"date": "12/3/2016", "giftcardRevenue": 25}
+		{"date": "12/3/2016", "giftcardRevenue": 25},
+		{"date": "12/14/2016", "giftcardRevenue": 25}
 	]
 },
 {
@@ -48,7 +52,9 @@
 		{"date": "12/5/2016", "giftcardRevenue": 25},
 		{"date": "12/6/2016", "giftcardRevenue": 10},
 		{"date": "12/7/2016", "giftcardRevenue": 25},
-		{"date": "12/8/2016", "giftcardRevenue": 50}
+		{"date": "12/8/2016", "giftcardRevenue": 50},
+		{"date": "12/13/2016", "giftcardRevenue": 20},
+		{"date": "12/14/2016", "giftcardRevenue": 10}
 	]
 },
 {
@@ -79,7 +85,8 @@
 "name": "Lizzie",
 "team": "Lizzie",
 "giftcardSales": [
-		{"date": "12/1/2016", "giftcardRevenue": 0}
+		{"date": "12/1/2016", "giftcardRevenue": 0},
+		{"date": "12/13/2016", "giftcardRevenue": 15}
 	]
 },
 {
@@ -95,7 +102,8 @@
 "name": "Evan H.",
 "team": "Lizzie",
 "giftcardSales": [
-		{"date": "12/1/2016", "giftcardRevenue": 25.00}
+		{"date": "12/1/2016", "giftcardRevenue": 25.00},
+		{"date": "12/13/2016", "giftcardRevenue": 10}
 	]
 },
 {
