@@ -134,7 +134,7 @@ class App extends Component {
           </div>
           <div className="team-list">
             <h1>Lowest Sales</h1>
-            {this.showLowestSalesTeamMembers(10)}
+            {this.showLowestSalesTeamMembers(12)}
           </div>
         </div>
       </div>
