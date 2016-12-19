@@ -16,7 +16,8 @@
 		{"date": "12/1/2016", "giftcardRevenue": 25.00},
 		{"date": "12/8/2016", "giftcardRevenue": 50.00},
 		{"date": "12/13/2016", "giftcardRevenue": 25.00},
-		{"date": "12/15/2016", "giftcardRevenue": 55}
+		{"date": "12/15/2016", "giftcardRevenue": 55},
+		{"date": "12/17/2016", "giftcardRevenue": 110}
 	]
 },
 {
@@ -66,7 +67,8 @@
 "giftcardSales": [
 		{"date": "12/1/2016", "giftcardRevenue": 0},
 		{"date": "12/3/2016", "giftcardRevenue": 10},
-		{"date": "12/8/2016", "giftcardRevenue": 20}
+		{"date": "12/8/2016", "giftcardRevenue": 20},
+		{"date": "12/17/2016", "giftcardRevenue": 25}
 	]
 },
 {
@@ -106,7 +108,8 @@
 "team": "Lizzie",
 "giftcardSales": [
 		{"date": "12/1/2016", "giftcardRevenue": 25.00},
-		{"date": "12/13/2016", "giftcardRevenue": 10}
+		{"date": "12/13/2016", "giftcardRevenue": 10},
+		{"date": "12/17/2016", "giftcardRevenue": 65}
 	]
 },
 {
