@@ -100,7 +100,8 @@
 "giftcardSales": [
 		{"date": "12/1/2016", "giftcardRevenue": 0},
 		{"date": "12/4/2016", "giftcardRevenue": 40},
-		{"date": "12/10/2016", "giftcardRevenue": 50}
+		{"date": "12/10/2016", "giftcardRevenue": 50},
+		{"date": "12/18/2016", "giftcardRevenue": 30}
 	]
 },
 {
