@@ -130,11 +130,11 @@ class App extends Component {
           {this.showHighestTeam()}
           <div className="team-list">
             <h1>Hightest Sales</h1>
-            {this.showHighestSalesTeamMembers(4)}
+            {this.showHighestSalesTeamMembers(6)}
           </div>
           <div className="team-list">
             <h1>Lowest Sales</h1>
-            {this.showLowestSalesTeamMembers(12)}
+            {this.showLowestSalesTeamMembers(10)}
           </div>
         </div>
       </div>
