@@ -6,7 +6,8 @@
 		{"date": "12/1/2016", "giftcardRevenue": 0},
 		{"date": "12/12/2016", "giftcardRevenue": 20},
 		{"date": "12/14/2016", "giftcardRevenue": 40},
-		{"date": "12/16/2016", "giftcardRevenue": 35}
+		{"date": "12/16/2016", "giftcardRevenue": 35},
+		{"date": "12/20/2016", "giftcardRevenue": 50}
 	]
 },
 {
@@ -25,7 +26,8 @@
 		{"date": "12/8/2016", "giftcardRevenue": 50.00},
 		{"date": "12/13/2016", "giftcardRevenue": 25.00},
 		{"date": "12/15/2016", "giftcardRevenue": 55},
-		{"date": "12/17/2016", "giftcardRevenue": 110}
+		{"date": "12/17/2016", "giftcardRevenue": 110},
+		{"date": "12/19/2016", "giftcardRevenue": 65}
 	]
 },
 {
@@ -34,7 +36,8 @@
 "giftcardSales": [
 		{"date": "12/1/2016", "giftcardRevenue": 0},
 		{"date": "12/3/2016", "giftcardRevenue": 30},
-		{"date": "12/11/2016", "giftcardRevenue": 20}
+		{"date": "12/11/2016", "giftcardRevenue": 20},
+		{"date": "12/19/2016", "giftcardRevenue": 35},
 	]
 },
 {
@@ -43,7 +46,8 @@
 "giftcardSales": [
 		{"date": "12/1/2016", "giftcardRevenue": 0},
 		{"date": "12/3/2016", "giftcardRevenue": 25},
-		{"date": "12/14/2016", "giftcardRevenue": 25}
+		{"date": "12/14/2016", "giftcardRevenue": 25},
+		{"date": "12/20/2016", "giftcardRevenue": 15}
 	]
 },
 {
@@ -53,7 +57,8 @@
 		{"date": "12/1/2016", "giftcardRevenue": 0},
 		{"date": "12/5/2016", "giftcardRevenue": 25},
 		{"date": "12/8/2016", "giftcardRevenue": 25},
-		{"date": "12/15/2016", "giftcardRevenue": 25}
+		{"date": "12/15/2016", "giftcardRevenue": 25},
+		{"date": "12/20/2016", "giftcardRevenue": 66}
 	]
 },
 {
@@ -66,7 +71,8 @@
 		{"date": "12/7/2016", "giftcardRevenue": 25},
 		{"date": "12/8/2016", "giftcardRevenue": 50},
 		{"date": "12/13/2016", "giftcardRevenue": 20},
-		{"date": "12/14/2016", "giftcardRevenue": 10}
+		{"date": "12/14/2016", "giftcardRevenue": 10},
+		{"date": "12/19/2016", "giftcardRevenue": 40}
 	]
 },
 {
@@ -76,7 +82,8 @@
 		{"date": "12/1/2016", "giftcardRevenue": 0},
 		{"date": "12/3/2016", "giftcardRevenue": 10},
 		{"date": "12/8/2016", "giftcardRevenue": 20},
-		{"date": "12/17/2016", "giftcardRevenue": 25}
+		{"date": "12/17/2016", "giftcardRevenue": 25},
+		{"date": "12/20/2016", "giftcardRevenue": 10}
 	]
 },
 {
@@ -116,7 +123,8 @@
 		{"date": "12/1/2016", "giftcardRevenue": 0},
 		{"date": "12/4/2016", "giftcardRevenue": 40},
 		{"date": "12/10/2016", "giftcardRevenue": 50},
-		{"date": "12/18/2016", "giftcardRevenue": 30}
+		{"date": "12/18/2016", "giftcardRevenue": 30},
+		{"date": "12/20/2016", "giftcardRevenue": 20}
 	]
 },
 {
