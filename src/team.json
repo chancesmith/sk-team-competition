@@ -7,7 +7,8 @@
 		{"date": "12/12/2016", "giftcardRevenue": 20},
 		{"date": "12/14/2016", "giftcardRevenue": 40},
 		{"date": "12/16/2016", "giftcardRevenue": 35},
-		{"date": "12/20/2016", "giftcardRevenue": 50}
+		{"date": "12/20/2016", "giftcardRevenue": 50},
+		{"date": "12/23/2016", "giftcardRevenue": 110}
 	]
 },
 {
@@ -15,7 +16,8 @@
 "team": "Jeremy",
 "giftcardSales": [
 		{"date": "12/1/2016", "giftcardRevenue": 0},
-		{"date": "12/16/2016", "giftcardRevenue": 50}
+		{"date": "12/16/2016", "giftcardRevenue": 50},
+		{"date": "12/23/2016", "giftcardRevenue": 85}
 	]
 },
 {
@@ -29,7 +31,8 @@
 		{"date": "12/17/2016", "giftcardRevenue": 110},
 		{"date": "12/19/2016", "giftcardRevenue": 65},
 		{"date": "12/22/2016", "giftcardRevenue": 25},
-		{"date": "12/22/2016", "giftcardRevenue": 25}
+		{"date": "12/22/2016", "giftcardRevenue": 25},
+		{"date": "12/23/2016", "giftcardRevenue": 45}
 	]
 },
 {
@@ -76,7 +79,8 @@
 		{"date": "12/13/2016", "giftcardRevenue": 20},
 		{"date": "12/14/2016", "giftcardRevenue": 10},
 		{"date": "12/19/2016", "giftcardRevenue": 40},
-		{"date": "12/21/2016", "giftcardRevenue": 50}
+		{"date": "12/21/2016", "giftcardRevenue": 50},
+		{"date": "12/23/2016", "giftcardRevenue": 120}
 	]
 },
 {
@@ -87,7 +91,8 @@
 		{"date": "12/3/2016", "giftcardRevenue": 10},
 		{"date": "12/8/2016", "giftcardRevenue": 20},
 		{"date": "12/17/2016", "giftcardRevenue": 25},
-		{"date": "12/20/2016", "giftcardRevenue": 10}
+		{"date": "12/20/2016", "giftcardRevenue": 10},
+		{"date": "12/23/2016", "giftcardRevenue": 55}
 	]
 },
 {
@@ -141,7 +146,8 @@
 		{"date": "12/1/2016", "giftcardRevenue": 25.00},
 		{"date": "12/13/2016", "giftcardRevenue": 10},
 		{"date": "12/17/2016", "giftcardRevenue": 65},
-		{"date": "12/22/2016", "giftcardRevenue": 40}
+		{"date": "12/22/2016", "giftcardRevenue": 40},
+		{"date": "12/23/2016", "giftcardRevenue": 20}
 	]
 },
 {
