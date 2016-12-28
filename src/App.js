@@ -15,8 +15,19 @@ class App extends Component {
           {name:'Jeremy', total: 0, color: "red"},
           {name:'Clayton', total: 0, color: "blue"},
           {name:'Lizzie', total: 0, color: "green"}
-        ]
+        ],
+        storeTotal: 0
     };
+  }
+
+  showStoreTotal(){
+    let teamsList = this.state.teams;
+
+    // total teams
+    for (let a = teamsList.length - 1; a >= 0; a--) {
+      this.state.storeTotal += teamsList[a].total;
+      console.log(teamsList[a].total + " + " + this.state.storeTotal);
+    }
   }
 
   showHighestTeam(){
@@ -122,10 +133,13 @@ class App extends Component {
     //setup state data
     this.storeTeamSalesTotals();
     this.totalTeamMemberSalesTotals();
+    this.showStoreTotal();
     return (
       <div className="App">
         <Header />
         <div className="App-intro">
+          <h1>Store Total</h1>
+          <p>${this.state.storeTotal}</p>
           <h1>Winning Team</h1>
           {this.showHighestTeam()}
           <div className="team-list">
