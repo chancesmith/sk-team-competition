@@ -27,12 +27,11 @@ class App extends Component {
     // total teams
     for (let a = teamsList.length - 1; a >= 0; a--) {
       this.state.storeTotal += teamsList[a].total;
-      console.log(teamsList[a].total + " + " + this.state.storeTotal);
     }
   }
 
   showPercentChange(num){
-    let percentChange = Math.floor( ((this.state.storeTotal/1700)-1)*100 );
+    let percentChange = Math.floor( ((this.state.storeTotal/num)-1)*100 );
     if (percentChange > 0)
       return "+"+percentChange;
     else
