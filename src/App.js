@@ -16,7 +16,8 @@ class App extends Component {
           {name:'Clayton', total: 0, color: "blue"},
           {name:'Lizzie', total: 0, color: "green"}
         ],
-        storeTotal: 0
+        storeTotal: 0,
+        lastYearTotal: 1700
     };
   }
 
@@ -28,6 +29,14 @@ class App extends Component {
       this.state.storeTotal += teamsList[a].total;
       console.log(teamsList[a].total + " + " + this.state.storeTotal);
     }
+  }
+
+  showPercentChange(num){
+    let percentChange = Math.floor( ((this.state.storeTotal/1700)-1)*100 );
+    if (percentChange > 0)
+      return "+"+percentChange;
+    else
+      return percentChange;
   }
 
   showHighestTeam(){
@@ -139,7 +148,7 @@ class App extends Component {
         <Header />
         <div className="App-intro">
           <h1>Store Total</h1>
-          <p>${this.state.storeTotal}</p>
+          <p>${this.state.storeTotal} ({this.showPercentChange(this.state.lastYearTotal)}%)</p>
           <h1>Winning Team</h1>
           {this.showHighestTeam()}
           <div className="team-list">
